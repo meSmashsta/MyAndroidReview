@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Miko\'s Activities</string>
+    <string name="create_activity">Create Activity</string>
+    <string name="action_create">Create</string>
+    <string name="action_detail">Detail</string>
+    <string name="activity_edit">Edit</string>
+    <string name="title_activity_create">CreateActivity</string>
+
+    <string name="ui_activity_title">Title</string>
+    <string name="ui_activity_description">Description</string>
+    <string name="ui_activity_button_save">Save</string>
+</resources>

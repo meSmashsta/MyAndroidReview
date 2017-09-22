@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.blazingmuffin.miko.couchcrud.CreateActivity">
+
+    <ProgressBar
+        android:id="@+id/saving_loading_indicator"
+        android:layout_gravity="center"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:visibility="invisible"/>
+
+    <LinearLayout
+        android:id="@+id/activity_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ui_activity_title"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/activity_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ui_activity_description" />
+
+        <EditText
+            android:id="@+id/activity_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:lines="4"
+            android:minLines="4" />
+
+        <Button
+            android:id="@+id/activity_save_button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="@string/ui_activity_button_save" />
+    </LinearLayout>
+</FrameLayout>
